@@ -1,0 +1,20 @@
+At one point, Tk::TextUndo supported the four following features:
+	<F5> indent selected text block
+	<F6> unindent selected text block
+	<F7> comment selected text block
+	<F8> uncomment selected text block
+
+They were included as undocumented and unsupported features.
+
+The user could select a block of text, and by pressing <F5>
+every line selected would be prefixed with a tab at the
+start of the line.
+
+Somewhere along the line, these features stopped working.
+
+This tarball includes a recent version of Tk::TextUndo
+where the above features are working properly again.
+
+
+
+
